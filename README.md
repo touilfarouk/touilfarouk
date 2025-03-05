@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00BFFF&height=200&section=header&text=Currently%20working%20on%20RGA%20(Recensement%20Général%20de%20l%20Agriculture)&fontSize=20&fontColor=fff&animation=fadeIn" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00BFFF&height=200&width=1000&section=header&text=Currently%20working%20on%20RGA%20(Recensement%20Général%20de%20l%20Agriculture)&fontSize=20&fontColor=fff&animation=fadeIn" alt="Header" />
 </p>
 
 <p align="center">
