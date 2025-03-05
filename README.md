@@ -1,7 +1,7 @@
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00BFFF&height=200&width=1300&section=header&text=Currently%20working%20on%20RGA%20(Recensement%20Général%20de%20l%20Agriculture)&fontSize=20&fontColor=fff&animation=fadeIn" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFF00,50:FFA500,100:006400&height=200&width=1300&section=header&text=Currently%20working%20on%20RGA%20(Recensement%20Général%20de%20l'Agriculture)&fontSize=20&fontColor=fff&animation=fadeIn" alt="Header" />
 </p>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=Full+Stack+Developer;Passionate+about+Web+%26+Mobile+Apps;Loves+Fancy+UI+%26+Colorful+Designs" />
