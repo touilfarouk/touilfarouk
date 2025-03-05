@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00BFFF&height=200&section=header&text=Touil%20Currently working on RGA (Recensement Général de l'Agriculture)&fontSize=50&fontColor=fff&animation=fadeIn" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00BFFF&height=200&section=header&text=Currently%20working%20on%20RGA%20(Recensement%20Général%20de%20l%20Agriculture)&fontSize=50&fontColor=fff&animation=fadeIn" alt="Header" />
 </p>
 
 <p align="center">
