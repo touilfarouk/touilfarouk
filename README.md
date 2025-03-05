@@ -4,10 +4,25 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Passionate+about+Web+%26+Mobile+Apps;Loves+Fancy+UI+%26+Colorful+Designs" />
 </p>
 
-	
 ---
 
 ### 🚀 About Me
+
+- **Nom et prénom** : Touil Farouk  
+
+- **Adresse** : Alger   
+-
+-
+-
+- **Mob** : 0799 16 27 46  
+- **Adresse mail** : farouktouil@gmail.com  
+ **Portofolio** :   touilfarouk.github.io
+- **Poste occupé** : Technicien d'études
+- **Formation** : CMP Opérateur Micro  
+- **Principales qualifications** : Développeur full stack  
+- **Stages et séminaires** : JavaScript, ReactJS  
+- **Expérience Professionnelle** : 13 ans  
+- **Maitrise des langues** :   English
 
 - 💻 Full-stack developer mastering PHP, HTML, CSS, Bootstrap, JavaScript, jQuery, SQL.
 - 🎨 Loves fancy UI designs and animated elements.
