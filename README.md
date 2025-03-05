@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00BFFF&height=200&section=header&text=Touil%20Farouk&fontSize=50&fontColor=fff&animation=fadeIn" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00BFFF&height=200&section=header&text=Touil%20Currently working on RGA (Recensement Général de l'Agriculture)&fontSize=50&fontColor=fff&animation=fadeIn" alt="Header" />
 </p>
 
 <p align="center">
@@ -12,11 +12,7 @@
 ### 🚀 About Me
 
 - **Nom et prénom** : Touil Farouk  
-
 - **Adresse** : Alger   
--
--
--
 - **Mob** : 0799 16 27 46  
 - **Adresse mail** : farouktouil@gmail.com  
  **Portofolio** :   touilfarouk.github.io
@@ -27,9 +23,9 @@
 - **Expérience Professionnelle** : 13 ans  
 - **Maitrise des langues** :   English
 
-- 💻 Full-stack developer mastering PHP, HTML, CSS, Bootstrap, JavaScript, jQuery, SQL.
+- 💻 Full-stack developer mastering PHP, HTML, CSS, Bootstrap, JavaScript, jQuery, SQL Kotlin.
 - 🎨 Loves fancy UI designs and animated elements.
-- 🏗️ Currently working on an Electron app with a PHP backend.
+- 🏗️ Currently working on RGA (Recensement Général de l'Agriculture).
 - 📡 Exploring the Binance API for real-time crypto data.
 
 ---
