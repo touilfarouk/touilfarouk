@@ -1,7 +1,7 @@
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00BFFF&height=200&section=header&text=Touil%20Farouk&fontSize=50&fontColor=fff&animation=fadeIn)
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Passionate+about+Web+%26+Mobile+Apps;Loves+Fancy+UI+%26+Colorful+Designs" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=Full+Stack+Developer;Passionate+about+Web+%26+Mobile+Apps;Loves+Fancy+UI+%26+Colorful+Designs" />
 </p>
 
 ---
