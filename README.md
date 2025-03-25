@@ -36,6 +36,16 @@ for branch in $(git branch -r | grep -v '\->' | sed 's/origin\///'); do
 done
 git pull --all
 ```
+```sh
+1️⃣ Fetch all branches from remote
+git fetch origin
+2️⃣ List all remote branches
+git branch -r
+3️⃣ Check out a remote branch locally
+git checkout -b signup-backend-flow origin/signup-backend-flow
+4️⃣ Verify that you're on the correct branch
+git branch
+````
 ### 🛠️ Tech Stack
 
 <p align="center">
