@@ -49,23 +49,7 @@ git branch
 
 ## 📜 CISSP Certification Information
 
-<table style="width: 100%; border-collapse: collapse;">
-    <tr>
-        <td height="1" bgcolor="#d8d7d0" width="50%" style="background-color: #d8d7d0; text-align: left; padding: 20px;">
-            <p style="color: #3f403d;">
-                La certification CISSP est la plus célèbre et la plus prestigieuse au monde dans le domaine de la Sécurité
-                des Systèmes d'Information. C'est aussi une des plus difficiles à obtenir.
-            </p>
-        </td>
-        <td bgcolor="#c7c7c0" width="50%" style="background-color: #c7c7c0; text-align: left; padding: 20px;">
-            <p style="color: #3f403d;">
-                La formule BOOTCAMP intensive proposée par Intervalle Technologies permettra aux participants
-                d'acquérir toutes les connaissances théoriques et techniques pour passer et réussir l'examen de
-                certification CISSP.
-            </p>
-        </td>
-    </tr>
-</table>
+
 
 ### 🛠️ Tech Stack
 
