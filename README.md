@@ -35,6 +35,7 @@ for branch in $(git branch -r | grep -v '\->' | sed 's/origin\///'); do
     git branch --track "$branch" "origin/$branch"
 done
 git pull --all
+```
 ### 🛠️ Tech Stack
 
 <p align="center">
