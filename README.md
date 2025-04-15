@@ -1,5 +1,6 @@
+<p align="center">
 <img src="https://github.com/faroukbmiled/faroukbmiled/raw/main/img/ryuk.gif" height="300" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
-
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=Full+Stack+Developer;Passionate+about+Web+%26+Mobile+Apps;Loves+Fancy+UI+%26+Colorful+Designs" />
