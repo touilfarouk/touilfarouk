@@ -1,9 +1,10 @@
 <p align="center">
-<img src="https://github.com/faroukbmiled/faroukbmiled/raw/main/img/ryuk.gif" height="300" style="width: 1200px; display: inline-block;" data-target="animated-image.originalImage">
+    
+<img src="https://giffiles.alphacoders.com/155/15594.gif" height="300" style="width: 1200px; display: inline-block;" data-target="animated-image.originalImage">
 </p>
 
 <p align="center">
-    <video src="https://github.com/touilfarouk/animated-background/blob/main/3245364363.mp4" autoplay loop muted></video>
+    <video src="https://github.com/faroukbmiled/faroukbmiled/raw/main/img/ryuk.gif" autoplay loop muted></video>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=Full+Stack+Developer;Passionate+about+Web+%26+Mobile+Apps;Loves+Fancy+UI+%26+Colorful+Designs" />
 </p>
 
