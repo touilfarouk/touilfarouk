@@ -1,6 +1,6 @@
 <p align="center">
     
-<img src="https://giffiles.alphacoders.com/155/15594.gif" height="300" style="width: 1200px; display: inline-block;" data-target="animated-image.originalImage">
+<img src="https://github.com/faroukbmiled/faroukbmiled/raw/main/img/ryuk.gif" height="300" style="width: 1200px; display: inline-block;" data-target="animated-image.originalImage">
 </p>
 
 <p align="center">
