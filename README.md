@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD700,50:FF8C00,100:006400&height=200&width=1300&section=header&text=Currently%20working%20on%20RGA%20(Recensement%20Général%20de%20l'Agriculture)&fontSize=20&fontColor=000000&animation=fadeIn&reversal=true" alt="Header" />
-</p>
+<img src="https://github.com/faroukbmiled/faroukbmiled/raw/main/img/ryuk.gif" height="300" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
 
 <p align="center">
