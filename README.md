@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <video src="3245364363.mp4" autoplay loop muted></video>
+    <video src="https://github.com/touilfarouk/animated-background/blob/main/3245364363.mp4" autoplay loop muted></video>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=Full+Stack+Developer;Passionate+about+Web+%26+Mobile+Apps;Loves+Fancy+UI+%26+Colorful+Designs" />
 </p>
 
