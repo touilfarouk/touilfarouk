@@ -37,6 +37,27 @@ for branch in $(git branch -r | grep -v '\->' | sed 's/origin\///'); do
 done
 git pull --all
 ```
+
+```sh
+…or create a new repository on the command line
+
+echo "# JavaGdxGames" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:touilfarouk/JavaGdxGames.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:touilfarouk/JavaGdxGames.git
+git branch -M main
+git push -u origin main
+```
+
+
+
 ```sh
 1️⃣ Fetch all branches from remote
 git fetch origin
