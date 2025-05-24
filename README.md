@@ -10,7 +10,7 @@
 
 ---
 
-### 🚀 About Me
+### 🚀 cmd of the day : du -xh / | sort -rh | head -n 20
 
 - **Nom et prénom** : Touil Farouk  
 - **Adresse** : Alger   
