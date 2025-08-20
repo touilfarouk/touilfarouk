@@ -68,7 +68,16 @@ git checkout -b signup-backend-flow origin/signup-backend-flow
 4️⃣ Verify that you're on the correct branch
 git branch
 ````
-
+## Generate new SSH key 
+```sh
+ssh-keygen -t ed25519 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+Go to GitHub → Settings → SSH and GPG keys → New SSH key
+Paste it there and save.
+ssh -T git@github.com
+````
 ## 📜 CISSP Certification Information
 
 
