@@ -122,4 +122,7 @@ ssh -T git@github.com
   <a href="mailto:touilfarouk@example.com"><img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   
 </p>
-  <img src="[https://github.com/faroukbmiled/faroukbmiled/raw/main/img/ryuk.gif](https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif)" height="300" style="width: 1200px; display: inline-block;" data-target="animated-image.originalImage">
+<p align="center">
+    
+<img src="https://github.com/faroukbmiled/faroukbmiled/raw/main/img/ryuk.gif" height="300" style="width: 1200px; display: inline-block;" data-target="animated-image.originalImage">
+</p>
