@@ -3,6 +3,7 @@
 <img src="https://github.com/faroukbmiled/faroukbmiled/raw/main/img/ryuk.gif" height="300" style="width: 1200px; display: inline-block;" data-target="animated-image.originalImage">
 </p>
 
+
 <p align="center">
     <video src="https://github.com/faroukbmiled/faroukbmiled/raw/main/img/ryuk.gif" autoplay loop muted></video>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=Full+Stack+Developer;Passionate+about+Web+%26+Mobile+Apps;Loves+Fancy+UI+%26+Colorful+Designs" />
@@ -119,6 +120,7 @@ ssh -T git@github.com
 <p align="center">
   <a href="https://www.linkedin.com/in/touilfarouk" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:touilfarouk@example.com"><img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <img src="[https://github.com/faroukbmiled/faroukbmiled/raw/main/img/ryuk.gif](https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif)" height="300" style="width: 1200px; display: inline-block;" data-target="animated-image.originalImage">
 </p>
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,100:8A2BE2&height=150&section=footer)
