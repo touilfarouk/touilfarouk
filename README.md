@@ -79,6 +79,16 @@ Go to GitHub → Settings → SSH and GPG keys → New SSH key
 Paste it there and save.
 ssh -T git@github.com
 ````
+## Another ssh key with diference
+````
+ssh-keygen -t ed25519 -C "another@hotmail.com" -f ~/.ssh/id_ed25519_another
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519_another
+cat ~/.ssh/id_ed25519_another.pub
+Go to GitHub → Settings → SSH and GPG keys → New SSH key
+Paste it there and save.
+ssh -T git@github.com
+````
 ## 📜 CISSP Certification Information
 
 
