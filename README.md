@@ -79,7 +79,7 @@ Go to GitHub → Settings → SSH and GPG keys → New SSH key
 Paste it there and save.
 ssh -T git@github.com
 ````
-## Another ssh key with diference
+## Another ssh key with other name
 ````
 ssh-keygen -t ed25519 -C "another@hotmail.com" -f ~/.ssh/id_ed25519_another
 eval "$(ssh-agent -s)"
@@ -89,7 +89,7 @@ Go to GitHub → Settings → SSH and GPG keys → New SSH key
 Paste it there and save.
 ssh -T git@github.com
 ````
-## 📜 CISSP Certification Information
+## 📜 Si Votre Xampp bloque
 
 ## xampp
 ````
