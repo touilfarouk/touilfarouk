@@ -27,7 +27,7 @@
 
 - 💻 Full-stack developer mastering PHP, HTML, CSS, Bootstrap, JavaScript, jQuery, SQL Kotlin.
 - 🎨 Loves fancy UI designs and animated elements.
-- 🏗️ Currently working on RGA (Recensement Général de l'Agriculture).
+- 🏗️ Currently working on Barrage Vert (Plate-form de suivie des traveaux).
 - 📡 Exploring the Binance API for real-time crypto data.
 
 ---
