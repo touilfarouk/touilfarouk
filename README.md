@@ -95,7 +95,25 @@ ssh -T git@github.com
 ````
 cp -r /c/xampp/mysql/data /c/xampp/mysql/data_old && rm -r /c/xampp/mysql/data/mysql/ /c/xampp/mysql/data/performance_schema/ /c/xampp/mysql/data/phpmyadmin/ /c/xampp/mysql/data/test/ && find /c/xampp/mysql/backup/ -mindepth 1 -maxdepth 1 ! -name "ibdata1" -exec cp -r {} /c/xampp/mysql/data/ \;
 ````
+# clean cach on ubuntu servers 
+````
+cd /var
+cd cache/apt/
+rm * -f
+cd ../ #cash
+rm -f *.gz && rm -f *.1
 
+cd /var/log/
+rm -f *.gz && rm -f *.1
+
+cd /var/log/letsencrypt/
+rm -f *.gz && rm -f *.1
+
+cd /var/log/apache2
+rm -f *.gz && rm -f *.1
+
+
+````
 ### 🛠️ Tech Stack
 
 <p align="center">
