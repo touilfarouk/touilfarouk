@@ -10,7 +10,7 @@
 </p>
 
 ---
-
+###   sudo windsurf --no-sandbox --user-data-dir=/root/.windsurf
 ### 🚀 cmd of the day : du -xh / | sort -rh | head -n 20
 
 - **Nom et prénom** : Touil Farouk  
