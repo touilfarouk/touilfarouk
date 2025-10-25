@@ -129,6 +129,39 @@ sudo tar -xzf android-studio-2025.1.4.8-linux.tar.gz -C /opt/
 /opt/android-studio/bin/studio.sh --version
 
 ````
+
+### Install Jupiter book - flask server
+````
+python -m venv book
+.\book\Scripts\activate # Windows 
+python -m pip install --upgrade pip
+pip install ipykernel
+python -m ipykernel install --user --name=book
+pip install --upgrade notebook
+jupyter notebook
+
+
+pip install flask
+python -m http.server 8000
+
+Then create a file server.py:
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Hello, Flask Server!"
+
+if __name__ == '__main__':
+    app.run(debug=True, port=8000)
+
+Run it with:
+
+python server.py
+
+````
 ### 🛠️ Tech Stack
 
 <p align="center">
