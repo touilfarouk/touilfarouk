@@ -117,16 +117,22 @@ rm -f *.gz && rm -f *.1
 ### Get the latest Android 
 ````# Download the latest stable version for Linux
 cd /tmp
-wget https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2025.1.4.8/android-studio-2025.1.4.8-linux.tar.gz
 
-# Backup your current installation
-sudo mv /opt/android-studio /opt/android-studio-ladybug-backup
+# Download the build (you already have the link)
+wget https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2025.2.1.7/android-studio-2025.2.1.7-linux.tar.gz
+
+# Backup existing installation
+sudo mv /opt/android-studio /opt/android-studio-backup-$(date +%Y%m%d)
 
 # Extract the new version
-sudo tar -xzf android-studio-2025.1.4.8-linux.tar.gz -C /opt/
+sudo tar -xzf android-studio-2025.2.1.7-linux.tar.gz -C /opt/
 
-# Verify installation
+# Optionally rename for consistency
+sudo mv /opt/android-studio-2025.2.1.7 /opt/android-studio
+
+# Launch and verify version
 /opt/android-studio/bin/studio.sh --version
+
 
 ````
 
