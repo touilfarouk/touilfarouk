@@ -119,6 +119,9 @@ rm -f *.gz && rm -f *.1
 cd /tmp
 
 # Download the build (you already have the link)
+cd /tmp
+
+# Download the build (you already have the link)
 wget https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2025.2.1.7/android-studio-2025.2.1.7-linux.tar.gz
 
 # Backup existing installation
@@ -132,6 +135,7 @@ sudo mv /opt/android-studio-2025.2.1.7 /opt/android-studio
 
 # Launch and verify version
 /opt/android-studio/bin/studio.sh --version
+
 
 
 ````
