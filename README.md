@@ -173,6 +173,28 @@ python server.py
 
 ````
 ### 🛠️ Tech Stack
+   19  sudo truncate -s 0 /var/log/syslog /var/log/auth.log /var/log/kern.log /var/log/daemon.log /var/log/messages
+   20  sudo find /var/log/apache2 -type f -exec truncate -s 0 {} \;
+   21  sudo find /var/log/mysql -type f -exec truncate -s 0 {} \;
+   22  sudo truncate -s 0 /var/log/apt/*log
+   23  sudo find /var/log -type f -name "*.gz" -delete
+   24  sudo find /var/log -type f -regex ".*\.[0-9]+" -delete
+   25  sudo find /var/log -type f -exec truncate -s 0 {} \;
+   26  sudo find /var/log -type f \( -name "*.gz" -o -regex ".*\.[0-9]+" \) -delete
+   27  sudo find /var/log -type f -name "*.gz" -delete
+   28  sudo find /var/log -type f -regex ".*\.[0-9]+" -delete
+   29  sudo find /var/log -type f -exec truncate -s 0 {} \;
+   30  sudo mysql -e "RESET QUERY CACHE;"
+   31  sudo mysql -e "SET GLOBAL innodb_buffer_pool_size=innodb_buffer_pool_size;"
+   32  sudo find /var/log -type f \( -name "*.gz" -o -regex ".*\.[0-9]+" \) -delete
+   33  sudo truncate -s 0 /var/log/syslog /var/log/auth.log /var/log/kern.log /var/log/daemon.log /var/log/messages
+   34  sudo find /var/log/apache2 -type f -exec truncate -s 0 {} \;
+   35  sudo find /var/log/mysql -type f -exec truncate -s 0 {} \;
+   36  sudo truncate -s 0 /var/log/apt/*log
+   37  sudo find /var/log/apache2 -type f -exec truncate -s 0 {} \;
+   38  sudo find /var/log/mysql -type f -exec truncate -s 0 {} \;
+   39  sudo truncate -s 0 /var/log/apt/*log
+
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,javascript,html,css,bootstrap,jquery,react,nodejs,mysql,sqlite" />
