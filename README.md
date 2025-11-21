@@ -173,6 +173,7 @@ python server.py
 
 ````
 ### 🛠️ Tech Stack
+````
    19  sudo truncate -s 0 /var/log/syslog /var/log/auth.log /var/log/kern.log /var/log/daemon.log /var/log/messages
    20  sudo find /var/log/apache2 -type f -exec truncate -s 0 {} \;
    21  sudo find /var/log/mysql -type f -exec truncate -s 0 {} \;
@@ -194,7 +195,7 @@ python server.py
    37  sudo find /var/log/apache2 -type f -exec truncate -s 0 {} \;
    38  sudo find /var/log/mysql -type f -exec truncate -s 0 {} \;
    39  sudo truncate -s 0 /var/log/apt/*log
-
+````
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,javascript,html,css,bootstrap,jquery,react,nodejs,mysql,sqlite" />
