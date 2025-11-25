@@ -249,3 +249,36 @@ python server.py
     
 <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" height="600" style="width: 1200px; display: inline-block;" data-target="animated-image.originalImage">
 </p>
+<p align="center">
+Here’s a concrete plan to introduce cancel/resume controls for the resumable upload system:
+
+Evaluate & prepare upload state
+Extend 
+DecisionFinanc.js
+ state to track upload session metadata (e.g., uploadSessionId, isUploadPaused, isUploadCancelable).
+Update 
+uploadFileWithProgress
+ to register the active XMLHttpRequest instance so it can be aborted on demand, and capture partial progress info (e.g., bytes uploaded) for resuming.
+UI/UX updates in the dialog
+In the inline progress zone (next to “Choisir un fichier”), add two buttons:
+– “Annuler le téléversement” (severity danger, outlined) → aborts the current upload and resets progress.
+– “Reprendre” (severity success) → currently shown only when a resume is possible (e.g., after interruption or manual cancel that supports resume).
+Mirror the same controls in 
+UploadProgressOverlay
+ to keep parity when the global overlay is displayed.
+Provide user feedback via toasts when canceling or resuming.
+Resume/cancel handling logic
+Implement handleCancelUpload to abort the stored XMLHttpRequest, clear progress, and set resumeInfo with the needed payload (file reference, uploaded bytes, resume URL/token).
+Enhance 
+handleResumeUpload
+ to restart the upload from the saved offset; coordinate with backend support (e.g., include Content-Range headers or chunk index).
+Ensure the backend (upload endpoint) accepts resumable/chunked requests: add parameters to indicate resume state and persist partial uploads, or fall back to re-upload if the server cannot resume.
+Edge cases & validation
+Disable the “Reprendre” button when no resume payload exists.
+If the user cancels entirely (not resumable), clear pdf1 and prompt to reselect.
+Handle dialog closure by cleaning up outstanding uploads to avoid orphaned requests.
+QA checklist
+Test cancel/resume for both add and edit dialogs.
+Simulate network loss (XHR error) and verify resume button appears and succeeds.
+Ensure deletion + reupload flows still respect the “PDF required” validation.
+</p>
