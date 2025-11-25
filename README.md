@@ -56,7 +56,18 @@ git remote add origin git@github.com:touilfarouk/JavaGdxGames.git
 git branch -M main
 git push -u origin main
 ```
-
+```
+1. Change the existing remote to point to the new repo
+If you want this project to push to BnApp2 instead of BnApp, just rename the URL:
+git remote set-url origin git@github.com:touilfarouk/BnApp2.git
+Check:
+git remote -vv
+✅ 2. Add a second remote with a different name
+If you want to keep the old repo and also push to a new one:
+git remote add origin2 git@github.com:touilfarouk/BnApp2.git
+Then push to the new repo:
+git push origin2 main
+```
 
 
 ```sh
