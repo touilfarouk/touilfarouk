@@ -106,6 +106,23 @@ ssh -T git@github.com
 ````
 cp -r /c/xampp/mysql/data /c/xampp/mysql/data_old && rm -r /c/xampp/mysql/data/mysql/ /c/xampp/mysql/data/performance_schema/ /c/xampp/mysql/data/phpmyadmin/ /c/xampp/mysql/data/test/ && find /c/xampp/mysql/backup/ -mindepth 1 -maxdepth 1 ! -name "ibdata1" -exec cp -r {} /c/xampp/mysql/data/ \;
 ````
+# allow phpmyadmin remote access
+````
+C:\xampp\apache\conf\extra\httpd-xampp.conf
+✅ Here is the full code block you must update inside that file:
+🔍 FIND this section:
+<Directory "C:/xampp/phpMyAdmin">
+    AllowOverride AuthConfig
+    Require local
+</Directory>
+
+✅ REPLACE IT WITH THIS (allow all remote access)
+<Directory "C:/xampp/phpMyAdmin">
+    AllowOverride AuthConfig
+    Require all granted
+</Directory>
+
+````
 # clean cache on ubuntu servers 
 ````
 cd /var
