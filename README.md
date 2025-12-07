@@ -230,7 +230,10 @@ python server.py
 </p>
 
 ---
-
+### if node js npm start does not work, put this in powershell 
+````
+ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+````
 ### 📊 GitHub Stats & Streaks
 
 <p align="center">
