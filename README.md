@@ -224,6 +224,17 @@ python server.py
    38  sudo find /var/log/mysql -type f -exec truncate -s 0 {} \;
    39  sudo truncate -s 0 /var/log/apt/*log
 ````
+### get pictures on window out subfolders 
+````
+Get-ChildItem -Recurse -File -Include *.jpg,*.jpeg,*.png,*.gif,*.bmp,*.webp |
+Where-Object { $_.FullName -notlike "*ALL_IMAGES*" } |
+ForEach-Object {
+    Copy-Item $_.FullName "C:\Users\ASUS\ALL_IMAGES\$($_.Directory.Name)_$($_.Name)" -Force
+}
+
+````
+
+
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,javascript,html,css,bootstrap,jquery,react,nodejs,mysql,sqlite" />
