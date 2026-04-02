@@ -245,6 +245,16 @@ ForEach-Object {
 ````
  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ````
+### Powershell Allow Ping 
+````
+PS C:\WINDOWS\system32> netsh advfirewall firewall add rule name="Allow Ping" protocol=icmpv4 dir=in action=allow
+Ok.
+ 
+PS C:\WINDOWS\system32> netsh advfirewall firewall delete rule name="Allow Ping"
+ 
+1 règle(s) supprimée(s).
+Ok.
+````
 ### 📊 GitHub Stats & Streaks
 
 <p align="center">
