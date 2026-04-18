@@ -10,6 +10,7 @@
 </p>
 
 ---
+
 ###   sudo windsurf --no-sandbox --user-data-dir=/root/.windsurf
 ### 🚀 cmd of the day : du -xh / | sort -rh | head -n 20
 
@@ -200,8 +201,13 @@ Run it with:
 python server.py
 
 ````
+### Search CMD 
+````
+### find . -maxdepth 3 -type f -iname "*.sql" 2>/dev/null
+````
 ### 🛠️ Tech Stack
 ````
+
    19  sudo truncate -s 0 /var/log/syslog /var/log/auth.log /var/log/kern.log /var/log/daemon.log /var/log/messages
    20  sudo find /var/log/apache2 -type f -exec truncate -s 0 {} \;
    21  sudo find /var/log/mysql -type f -exec truncate -s 0 {} \;
